@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "johndoe@example.com",
+      "password": "password123",
+      "accountId": 1,
+      "total": 5000
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Doe",
+      "email": "janedoe@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "firstname": "Bob",
+      "lastname": "Smith",
+      "email": "bobsmith@example.com",
+      "password": "password789"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "total": 5000
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "total": 10000
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "total": 2500
+    }
+  ],
+  "movements": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "type": "Add",
+      "amount": 6000,
+      "result": "Successful"
+    },
+    {
+      "id": 2,
+      "account_id": 1,
+      "type": "Remove",
+      "amount": 1000,
+      "result": "Successful"
+    },
+    {
+      "id": 3,
+      "account_id": 2,
+      "type": "Add",
+      "amount": 10000,
+      "result": "Successful"
+    },
+    {
+      "id": 4,
+      "account_id": 3,
+      "type": "Add",
+      "amount": 3000,
+      "result": "Successful"
+    },
+    {
+      "id": 5,
+      "account_id": 3,
+      "type": "Remove",
+      "amount": 500,
+      "result": "Declined"
+    },
+    {
+      "type": "add",
+      "amount": "1000",
+      "account_id": 1,
+      "id": 6
+    },
+    {
+      "type": "add",
+      "amount": "1000",
+      "account_id": 1,
+      "id": 7
+    }
+  ]
+}
